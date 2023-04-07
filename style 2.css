@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+.btn-group .Link {
+        background-color: darkslategray;
+        border: none;
+        color: white;
+        padding: 10px 30px;
+        text-align: left;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        cursor: pointer;
+        float: left;
+    }
+    .card{
+        background-color: white;
+        width: 800px;
+        height: 600px; 
+        border: 20px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+    .photo1{
+        text-align:left;
+    }
+
+    .photo1 h1{
+        padding: 6;
+        color: black;
+        font-size: medium;
+
+    }
+    .photo1 p{
+        padding: 2;
+        color: black;
+        font-size: small;
+    .photo1 img{
+            max-width: 900px;
+            margin :4 auto;
+            gap: 2vmin;
+            padding:0 14px;
+
+        .gallery{
+            max-width: 900px;
+            margin :4 auto;
+            display:flex;
+            flex-wrap:wrap;
+            gap: 2vmin;
+            padding:0 14px;
+        }
+        .gallery li{
+            list-style-type: none;
+            height: 250px;
+        }
+        .gallery img{
+            height: 100px;
+            width: 100%;
+            object-fit: cover;
+            
+
+

@@ -1,0 +1,55 @@
+*,
+*::before
+*::after{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font:inherit;
+}
+.Menu{
+    width:100%;
+    border: 5px;
+    display: flex;
+    flex-wrap:wrap;
+    
+}
+
+.block1{
+    display: block;
+    width: 50%;
+    text-align: center; 
+}
+.block1 img{
+    width: 50%;
+}
+.block1 h1{
+    font-size: large;
+    color: aliceblue;
+    text-align: center;
+}
+.block1 p{
+    color: rosybrown;
+    text-align: center;
+}
+
+.block2{
+    display: block;
+    width: 50%;
+    background-color: aliceblue;
+}
+.icon{
+    width: 20%;
+    height: 20%;
+}
+h2{
+    color: black;
+    padding: 5px;
+}
+p{
+    color: black;
+    padding: 5px;
+}
+

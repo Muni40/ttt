@@ -14,14 +14,23 @@
     border: 5px;
     display: flex;
     flex-wrap:wrap;
-    
+    height: 100vh;
 }
 
 .block1{
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 50%;
-    text-align: center; 
+    text-align: center;
+    background-image: url("https://st3.depositphotos.com/1027198/18538/i/450/depositphotos_185381480-stock-photo-assorted-american-food-served-wooden.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+.block-title {
+    text-align: center;
+}
+
 .block1 img{
     width: 50%;
 }
@@ -36,9 +45,14 @@
 }
 
 .block2{
+    padding: 40px;
+    margin: 40px;
     display: block;
     width: 50%;
     background-color: aliceblue;
+}
+.block2 p {
+    margin-bottom: 16px;
 }
 .icon{
     width: 20%;
@@ -53,3 +67,7 @@ p{
     padding: 5px;
 }
 
+input[type='button'] {
+    background-color: pink;
+    padding: 12px;
+}
